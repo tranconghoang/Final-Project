@@ -1,0 +1,70 @@
+.shopName{
+    display:flex;
+    align-items:center;
+    justify-content: left;
+}
+
+.shopImg{
+        width:10%;
+        margin:10px;
+    
+}
+.productInCart{
+  gap:5%
+}
+.smallImageProduct{
+    width:50%;
+}
+.productName{
+}
+.productType, .productPrice, .productQty, .productEdit, .productInCart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid black 1px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.productEdit{
+    border-right:none;
+}
+.productEdit{
+    justify-content: space-between  !important
+}
+.productEdit button{
+    border-radius:10px;
+    height:80%;
+    background-color: orange;
+    height:fit-content;
+}
+.bottomRow{
+    border-top: solid black 1px;
+}
+.totalrow{
+    height:33%;
+    margin:1%;   
+}
+.row1{
+    font-size:1.5em;
+    display:flex;
+    align-items: center;;
+    justify-content: center;
+
+    font-weight: 500;
+}
+.row2{
+    display:flex;
+    align-items: center;;
+    justify-content: center;
+    font-weight: 500;
+    font-size:1.5em
+}
+.row3 button{ 
+    width:100%;
+    border-radius:20px;
+    height:50px;
+    background-color: orange;
+}
+.test{
+    gap:3%;
+}

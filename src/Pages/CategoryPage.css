@@ -1,0 +1,17 @@
+.display{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:2%
+}
+.productImg{
+    width:100%;
+}
+.discountedPrice{
+    font-weight: 500px;
+    font-size:1.5em;
+    display:block;
+
+}
+.ogPrice{
+    text-decoration: line-through;
+}

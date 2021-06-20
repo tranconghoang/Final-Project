@@ -1,0 +1,32 @@
+.filter{
+   
+}
+.price_button{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px 0 ;
+
+}
+.price_button Button{
+    width:45%;
+    margin:2px;
+   
+}
+.searchbtn{
+    width:100%;
+}
+.filtered {
+display:flex;
+flex-wrap:wrap;
+}
+.filtered Button{
+    margin:2px;
+    border-radius:50px !important;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.filtered Button span{
+
+}

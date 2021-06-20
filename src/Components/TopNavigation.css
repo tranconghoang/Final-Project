@@ -1,0 +1,84 @@
+.TopNav_Container{
+   background-color:red 
+}
+.Link{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+.TopNav_Row{
+}
+.TopNav_Col{
+    background-color:#d21404;
+    height:40px;
+    display:flex;
+    align-items:center;
+}
+.TopNav_Row2{
+    height:80px;
+    display:flex;
+    align-items:center;
+}
+.TopNav_Row2 Col{
+    position:relative;
+}
+.CategoryBox{
+    display:none;
+    position:absolute;
+    background-color:yellow
+}
+.CategoryButton:hover .CategoryBox{
+    display:block;
+
+}
+
+.searchbarform{
+    width:50% !important;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.searchbar{
+    max-width:100% !important;
+}
+.cart{
+    margin: 0 20px ;
+}
+.subCat{
+    height:70px;
+    display:flex;
+    background-color: grey;
+}
+.subCat div{
+    align-self: center;;
+    display:flex;
+    margin:auto;
+    justify-content: space-between;
+    width:70%;
+}
+.mga{
+    margin: 0 20px;
+}
+.CategoryHover ul{ 
+    display:none;
+    position: absolute;
+    color:black;
+    border: solid black 1px;
+    border-radius:10px;
+    z-index:999;
+    background-color:brown;
+    padding:10px;
+    
+}
+
+.CategoryHover ul li{
+    margin:0 15px;
+
+}
+.CategoryHover{
+    position:relative;
+    
+}
+.CategoryHover:hover ul{
+    display:block;
+}

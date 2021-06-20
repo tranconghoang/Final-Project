@@ -1,0 +1,49 @@
+.auth_form{
+    
+}
+.auth_box{
+   margin: 100px 0 ; 
+}
+div label{
+    display:block;
+}
+div label input{
+    width:100%;
+}
+label span{
+    font-weight: 500;
+    display:block;
+}
+form{
+text-align: center;;
+}
+.auth_misc{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.auth_execute button{
+    width:100%;
+    height:50px;
+    margin:5px;
+    border-radius: 20px;
+
+}
+.auth_execute{
+    max-width:60%;
+    margin: 20px auto;
+}
+
+.auth_header{
+    font-weight: 700;
+    font-size:2em;
+}
+.auth_box_container{
+    display: flex;
+    justify-content: space-evenly
+}
+.sendo_bl{
+    margin-top:50px
+}

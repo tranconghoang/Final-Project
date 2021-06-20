@@ -1,0 +1,37 @@
+.AdsContainer {
+  max-width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.BtnContainer button {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: blanchedalmond;
+}
+.BtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SalesBanner {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SalesBannerContainer {
+  margin: 20px 0px;
+}
+.SalesBanner img {
+  width: 15%;
+}
+.bannerText {
+  font-size: 4em;
+  font-weight: 500;
+}
+.sendo {
+  width: 100%;
+  border-radius: 50px;
+}
