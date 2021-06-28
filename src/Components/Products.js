@@ -15,8 +15,8 @@ export default function ProductBox() {
   const { slug } = useParams();
   const productList = useSelector((state) => state.productList);
   useEffect(() => {
-    if (slug === "thoi-trang-nu") dispatch(getProductList(8, 1));
-    else if (slug === "thoi-trang-nam") dispatch(getProductList(94, 1));
+    if (slug === "thoi-trang-nam") dispatch(getProductList(8, 1));
+    else if (slug === "thoi-trang-nu") dispatch(getProductList(94, 1));
     else dispatch(getProductList(1992, 1));
   }, [dispatch]);
   console.log(productList);

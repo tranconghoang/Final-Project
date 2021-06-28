@@ -1,4 +1,4 @@
-import { GET_CATEGORIES, GET_PRODUCTDETAIL, GET_PRODUCTLIST, GET_SEARCH } from "./types"
+import { GET_CATEGORIES, GET_PRODUCTDETAIL, GET_PRODUCTLIST, GET_SEARCH, ADD_TO_CART } from "./types"
 
 export const getCategories = () => {
     return function (dispatch) {
@@ -59,4 +59,22 @@ export const getSearch = (query) => {
         type: GET_SEARCH,
         query
     }
+}
+export const addToCart = (items, product,qty,) => (dispatch) => {
+    const cartItems = items.slice()
+    let productAlreadyInCart = false
+    cartItems.forEach(item=> {
+        if(item.data.id === product.data.id) {
+            productAlreadyInCart = true
+            
+        }
+    })
+    if (!productAlreadyInCart) {
+        cartItems.push({ ...product, qty:qty, total_price: product.data.final_price * qty})
+    }
+    return dispatch({type: ADD_TO_CART,
+        payload:{
+            cartItems: cartItems,
+            product: product,
+        }})
 }

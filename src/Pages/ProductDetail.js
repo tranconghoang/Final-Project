@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row,Col } from 'react-bootstrap'
-import ProductInsight from '../Components/ProductInsight'
+import ProductInsight from '../Components/ProductInsight/ProductInsight'
 export default function ProductDetail() {
     return (
         <Container>

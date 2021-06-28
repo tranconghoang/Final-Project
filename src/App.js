@@ -14,7 +14,7 @@ import Ads from "./Components/AdBanner";
 import { useDispatch, useSelector } from "react-redux";
 import { Suspense, useEffect } from "react";
 import { getCategories } from "./redux/action";
-import ProductInsight from "./Components/ProductInsight";
+import ProductInsight from "./Components/ProductInsight/ProductInsight";
 import SubCategory from "./Components/SubCategory";
 
 function App() {

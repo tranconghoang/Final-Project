@@ -42,7 +42,8 @@ text-align: center;;
 }
 .auth_box_container{
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items:center
 }
 .sendo_bl{
     margin-top:50px
