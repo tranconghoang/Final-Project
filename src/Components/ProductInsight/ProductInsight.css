@@ -1,8 +1,15 @@
 
 
-.product_detail{
+.product_detail {
     display:flex;
+    justify-content: center;
+    margin:3%;
 }
 .leftpanel, .rightpanel{
-    width:30%;
+    width:40%;
+    margin: 0 20px
+}
+
+.leftpanel > div {
+padding-left:20%;
 }

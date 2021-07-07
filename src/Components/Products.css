@@ -1,7 +1,7 @@
 .product_display {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-gap: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .place_sold {
   display: flex;
@@ -11,7 +11,6 @@
 .price {
   display: flex;
   flex-direction: column;
-  
 }
 .new_price {
   color: red;
@@ -41,9 +40,16 @@ a:hover {
 .product_border {
   border: solid gray 2px;
   padding: 10px;
-  background-color: white;
+  background-color: yellow;
   border-radius: 10px;
+  margin: 15px;
 }
 .background_color {
   background-color: lightgray;
+}
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 60%;
+  white-space: nowrap;
 }

@@ -39,7 +39,6 @@ const utensil = <FontAwesomeIcon icon={faUtensils} />;
 export default function SubCategory({ categoryList }) {
   console.log(categoryList);
   const dispatch = useDispatch();
-  
 
   return (
     <div>

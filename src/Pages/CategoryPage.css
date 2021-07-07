@@ -1,7 +1,5 @@
 .display{
-    display:grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap:2%
+    background-color: lightgray;
 }
 .productImg{
     width:100%;
@@ -14,4 +12,7 @@
 }
 .ogPrice{
     text-decoration: line-through;
+}
+.onefifth{
+    width:20%
 }

@@ -47,7 +47,7 @@ export default function TopNavigation({ categoryList }) {
         variant="dark"
         className="navbar d-flex  justify-content-center"
       >
-        <Nav as={Link} to="/index">
+        <Nav as={Link} to="/">
           {" "}
           <img src="/logo.svg" />
         </Nav>

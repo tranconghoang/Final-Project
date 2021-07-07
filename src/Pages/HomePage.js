@@ -11,7 +11,9 @@ function HomePage() {
     <div className="over-all">
       <Ads></Ads>
       
+      <div className="limited-space">
       <ProductBox />
+      </div>
     </div>
   );
 }

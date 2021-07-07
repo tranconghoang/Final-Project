@@ -1,0 +1,49 @@
+.rp_product_name {
+  font-weight: bold;
+  font-size: 24px;
+}
+.rp_rating,
+.rp_amount_sold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.rp_price {
+  font-weight: bold;
+  font-size: 32px;
+  color: red;
+}
+
+.color_options {
+  margin: 20px 0;
+}
+.border_size {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+.qty_box {
+  display: flex;
+  align-items: center;
+}
+.qty {
+  margin: 10px;
+  display: flex;
+}
+.qty input {
+  width: 50px;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+.qty button {
+  display: flex;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+.carousel_container{
+  width:80%;
+ 
+}

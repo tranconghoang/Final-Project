@@ -24,16 +24,15 @@ export default function LeftPanel() {
   }, [dispatch]);
 
   return (
-      <Carousel  autoPlay>
+    <div>
+      <Carousel autoPlay>
         {productDetail &&
           productDetail.data.media.map((item) => (
             <div>
-              <img
-                alt=""
-                src={item.image_500x500}
-              />
+              <img alt="" src={item.image_500x500} />
             </div>
           ))}
       </Carousel>
+    </div>
   );
 }

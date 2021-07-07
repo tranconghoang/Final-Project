@@ -27,7 +27,7 @@ function App() {
     <Router>
       <TopNavigation categoryList={categoryList} />
       <Switch>
-        <Route path="/index">
+        <Route exact path="/">
           <SubCategory categoryList={categoryList} />
           <HomePage />
         </Route>
@@ -40,7 +40,6 @@ function App() {
           <CartPage />
         </Route>
         <Route exac path="/Productinsight/:path">
-        <SubCategory categoryList={categoryList}/>
           <ProductInsight />
         </Route>
         <Route path="/Loginpage">

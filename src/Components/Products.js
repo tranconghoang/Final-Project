@@ -29,9 +29,7 @@ export default function ProductBox() {
               productList.map((item) => (
                 <Link to={`Productinsight/${item.category_path}`}>
                   <Container className="product_border">
-                    <div>
                       <img alt="aiz" src={item.image}></img>
-                    </div>
                     <p className="product_name">{item.name}</p>
                     <div className="price">
                         <span className="new_price">
@@ -46,7 +44,7 @@ export default function ProductBox() {
                         )}                      
                     </div>
                     <div className="place_sold">
-                      <p>{item.shop.name}</p>
+                      <p className="overflow">{item.shop.name}</p>
                       {item.sold > 0 && <p>Đã bán {item.sold}</p>}
                     </div>
                   </Container>
@@ -56,9 +54,7 @@ export default function ProductBox() {
               searchProductList.map((item) => (
                 <Link to={`Productinsight/${item.category_path}`}>
                   <Container className="product_border">
-                    <div>
                       <img alt="aiz" src={item.image}></img>
-                    </div>
                     <p className="product_name">{item.name}</p>
                     <div className="price">
                       <span className="new_price">

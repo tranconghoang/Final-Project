@@ -1,11 +1,13 @@
 import {
-    ADD_TO_CART,
+  ADD_TO_CART,
   GET_CATEGORIES,
+  GET_COLOR,
   GET_PRODUCTDETAIL,
   GET_PRODUCTLIST,
   GET_SEARCH,
 } from "./types";
 const initialState = {
+  qty: 0,
   count: 2,
   size: false,
   categoryList: undefined,
@@ -35,13 +37,17 @@ const appReducer = (state = initialState, action) => {
       return { ...state, searchProductList, query };
     }
     case ADD_TO_CART: {
-        return {
-            cart: action.payload.cartItems,
-            productDetail: action.payload.product,
-            qty: 1,   
-        }
+      return {
+        ...state,
+        categoryList: action.categoryList,
+        cart: action.payload.cartItems,
+        productDetail: action.payload.product,
+      };
     }
-
+    case GET_COLOR: {
+      return { ...state, color: action.color };
+    }
+    
     default:
       return state;
   }
